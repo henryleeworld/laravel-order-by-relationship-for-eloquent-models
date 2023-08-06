@@ -1,4 +1,4 @@
-# Laravel 8 Eloquent 模型依關聯排序
+# Laravel 10 Eloquent 模型依關聯排序
 
 Eloquent 模型使這些關聯變得更容易於管理與運用，並支援多種不同類型的關聯，並可針對給定的欄位關聯，將查詢結果排序。
 
@@ -20,16 +20,21 @@ $ php artisan key:generate
 ```sh
 $ php artisan migrate --seed
 ```
-- 執行安裝 Laravel Mix 引用的依賴項目，並執行所有 Mix 任務。
+- 執行安裝 Vite 和 Laravel 擴充套件引用的依賴項目。
 ```sh
-$ npm install && npm run dev
+$ npm install
+```
+- 執行正式環境版本化資源管道並編譯。
+```sh
+$ npm run build
 ```
 - 在瀏覽器中輸入已定義的路由 URL 來訪問，例如：http://127.0.0.1:8000。
 - 你可以經由 `/register` 來進行註冊。
 - 完成註冊後，可以經由 `/login` 來進行登入。
+- 登入後，可以經由 `/` 來進行依照分類名稱排序的商品清單瀏覽。
 
 ----
 
 ## 畫面截圖
-![](https://i.imgur.com/pHgBEUv.png)
+![](https://i.imgur.com/IvjlPqx.png)
 > 通過欄位關聯的形式排序
