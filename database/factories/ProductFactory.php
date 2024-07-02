@@ -17,13 +17,13 @@ class ProductFactory extends Factory
     /**
      * Define the model's default state.
      *
-     * @return array
+     * @return array<string, mixed>
      */
-    public function definition()
+    public function definition(): array
     {
         return [
             'category_id' => rand(1,500),
-            'name' => $this->faker->text(20),
+            'name' => fake()->text(20),
             'price' => rand(1000, 9999),
         ];
     }

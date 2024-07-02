@@ -1,4 +1,4 @@
-# Laravel 10 Eloquent 模型依關聯排序
+# Laravel 11 Eloquent 模型依關聯排序
 
 Eloquent 模型使這些關聯變得更容易於管理與運用，並支援多種不同類型的關聯，並可針對給定的欄位關聯，將查詢結果排序。
 
@@ -36,5 +36,5 @@ $ npm run build
 ----
 
 ## 畫面截圖
-![](https://i.imgur.com/IvjlPqx.png)
+![](https://i.imgur.com/O2fqB8y.png)
 > 通過欄位關聯的形式排序
